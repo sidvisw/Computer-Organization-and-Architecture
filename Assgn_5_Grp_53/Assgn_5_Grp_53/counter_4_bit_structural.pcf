@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Sep 14 17:31:07 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "out<0>" LOCATE = SITE "H17" LEVEL 1;
+COMP "out<1>" LOCATE = SITE "K15" LEVEL 1;
+COMP "out<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "out<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "rst" LOCATE = SITE "J15" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "cd/clk_out" BEL "cd/counter_0" BEL "cd/counter_1"
+        BEL "cd/counter_2" BEL "cd/counter_3" BEL "cd/counter_4" BEL
+        "cd/counter_5" BEL "cd/counter_6" BEL "cd/counter_7" BEL
+        "cd/counter_8" BEL "cd/counter_9" BEL "cd/counter_10" BEL
+        "cd/counter_11" BEL "cd/counter_12" BEL "cd/counter_13" BEL
+        "cd/counter_14" BEL "cd/counter_15" BEL "cd/counter_16" BEL
+        "cd/counter_17" BEL "cd/counter_18" BEL "cd/counter_19" BEL
+        "cd/counter_20" BEL "cd/counter_21" BEL "cd/counter_22" BEL
+        "cd/counter_23" BEL "cd/counter_24" BEL "cd/counter_25" BEL
+        "cd/counter_26" BEL "cd/counter_27" BEL "cd/counter_28" BEL
+        "cd/counter_29" BEL "cd/counter_30" BEL "cd/counter_31" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

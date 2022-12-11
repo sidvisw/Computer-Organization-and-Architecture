@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.xst" -ofn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timing_4bit.ucf -p xc7a100t-csg324-1 wrapper_CLA_4bit.ngc wrapper_CLA_4bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_CLA_4bit_map.ncd wrapper_CLA_4bit.ngd wrapper_CLA_4bit.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_CLA_4bit_map.ncd wrapper_CLA_4bit.ncd wrapper_CLA_4bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml wrapper_CLA_4bit.twx wrapper_CLA_4bit.ncd -o wrapper_CLA_4bit.twr wrapper_CLA_4bit.pcf -ucf timing_4bit.ucf 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.xst" -ofn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timing_4bit.ucf -p xc7a100t-csg324-1 wrapper_CLA_4bit.ngc wrapper_CLA_4bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_CLA_4bit_map.ncd wrapper_CLA_4bit.ngd wrapper_CLA_4bit.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_CLA_4bit_map.ncd wrapper_CLA_4bit.ncd wrapper_CLA_4bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml wrapper_CLA_4bit.twx wrapper_CLA_4bit.ncd -o wrapper_CLA_4bit.twr wrapper_CLA_4bit.pcf -ucf timing_4bit.ucf 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_4bit.syr" 

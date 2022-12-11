@@ -1,0 +1,5 @@
+verilog work "half_addr.v"
+verilog work "full_addr.v"
+verilog work "Ripple_Carry_Addr_8bit.v"
+verilog work "test_RCA_8bit.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

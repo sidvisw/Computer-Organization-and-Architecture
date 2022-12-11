@@ -1,0 +1,72 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC_sort_test_isim_beh.exe -prj /home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC_sort_test_beh.prj work.wrapper_RISC_sort_test work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/Lookahead_Carry_Unit.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/CLA_4bit.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/CLA_16bit.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/encoder_32x5.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/adder.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/shifter.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/diff.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/sign_extend.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/register_file.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/program_counter.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/mux_3x1_5bits.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/mux_3x1.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/mux_2x1.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/ipcore_dir/InstrMem.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/ipcore_dir/DataMem.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/d_flip_flop.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/control_unit.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/branch_control.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/ALU_control.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/ALU.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/RISC.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC.v" into library work
+Analyzing Verilog file "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC_sort_test.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC.v" Line 26: Size mismatch in connection of port <out>. Formal port size is 32-bit while actual signal size is 16-bit.
+Completed static elaboration
+Fuse Memory Usage: 84972 KB
+Fuse CPU Usage: 2280 ms
+Compiling module program_counter
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module InstrMem
+Compiling module mux_3x1_5bits
+Compiling module register_file
+Compiling module control_unit
+Compiling module ALU_control
+Compiling module sign_extend
+Compiling module mux_2x1
+Compiling module CLA_4bit
+Compiling module Lookahead_Carry_Unit
+Compiling module CLA_16bit
+Compiling module adder
+Compiling module shifter
+Compiling module encoder_32x5
+Compiling module diff
+Compiling module ALU
+Compiling module d_flip_flop
+Compiling module branch_control
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module DataMem
+Compiling module mux_3x1
+Compiling module RISC
+Compiling module wrapper_RISC
+Compiling module wrapper_RISC_sort_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 31 Verilog Units
+Built simulation executable /home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC_sort_test_isim_beh.exe
+Fuse Memory Usage: 1172768 KB
+Fuse CPU Usage: 2520 ms
+GCC CPU Usage: 5810 ms

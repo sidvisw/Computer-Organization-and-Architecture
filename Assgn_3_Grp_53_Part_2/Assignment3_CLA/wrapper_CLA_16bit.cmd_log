@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timing.ucf -p xc7a100t-csg324-1 wrapper_CLA_16bit.ngc wrapper_CLA_16bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_CLA_16bit_map.ncd wrapper_CLA_16bit.ngd wrapper_CLA_16bit.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_CLA_16bit_map.ncd wrapper_CLA_16bit.ncd wrapper_CLA_16bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml wrapper_CLA_16bit.twx wrapper_CLA_16bit.ncd -o wrapper_CLA_16bit.twr wrapper_CLA_16bit.pcf -ucf timing.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timing.ucf -p xc7a100t-csg324-1 wrapper_CLA_16bit.ngc wrapper_CLA_16bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_CLA_16bit_map.ncd wrapper_CLA_16bit.ngd wrapper_CLA_16bit.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_CLA_16bit_map.ncd wrapper_CLA_16bit.ncd wrapper_CLA_16bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml wrapper_CLA_16bit.twx wrapper_CLA_16bit.ncd -o wrapper_CLA_16bit.twr wrapper_CLA_16bit.pcf -ucf timing.ucf 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc timing_16bit.ucf -p xc7a100t-csg324-1 wrapper_CLA_16bit.ngc wrapper_CLA_16bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_CLA_16bit_map.ncd wrapper_CLA_16bit.ngd wrapper_CLA_16bit.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_CLA_16bit_map.ncd wrapper_CLA_16bit.ncd wrapper_CLA_16bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml wrapper_CLA_16bit.twx wrapper_CLA_16bit.ncd -o wrapper_CLA_16bit.twr wrapper_CLA_16bit.pcf -ucf timing_16bit.ucf 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit.syr" 

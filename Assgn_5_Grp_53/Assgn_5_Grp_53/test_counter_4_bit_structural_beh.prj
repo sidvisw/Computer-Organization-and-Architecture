@@ -1,0 +1,6 @@
+verilog work "D_Flip_Flop.v"
+verilog work "clock_divider.v"
+verilog work "add_by_one_adder.v"
+verilog work "counter_4_bit_structural.v"
+verilog work "test_counter_4_bit_structural.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

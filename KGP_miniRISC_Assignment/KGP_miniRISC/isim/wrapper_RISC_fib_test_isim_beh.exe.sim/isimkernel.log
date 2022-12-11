@@ -1,0 +1,28 @@
+Command line:
+   wrapper_RISC_fib_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58043
+
+Wed Nov 09 15:10:40 2022
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5162.49 Meg
+
+ Total Signals          : 670
+ Total Nets             : 2606
+ Total Signal Drivers   : 358
+ Total Blocks           : 81
+ Total Primitive Blocks : 64
+ Total Processes        : 394
+ Total Traceable Variables  : 671
+ Total Scalar Nets and Variables : 113703
+
+ Total Simulation Time: 11.5938 sec
+
+ Current Memory Usage: 5162.49 Meg
+
+Wed Nov 09 15:11:09 2022
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/test_counter_4_bit_structural_isim_beh.exe" -prj "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/test_counter_4_bit_structural_beh.prj" "work.test_counter_4_bit_structural" "work.glbl" 

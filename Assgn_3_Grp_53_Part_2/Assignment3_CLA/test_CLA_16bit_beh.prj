@@ -1,0 +1,6 @@
+verilog work "Lookahead_Carry_Unit.v"
+verilog work "CLA_4bit.v"
+verilog work "CLA_16bit.v"
+verilog work "wrapper_CLA_16_bit.v"
+verilog work "test_CLA_16bit.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

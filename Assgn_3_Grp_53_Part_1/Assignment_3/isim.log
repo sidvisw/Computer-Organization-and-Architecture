@@ -1,0 +1,19 @@
+ISim log file
+Running: /home/umang/Assignment_3/test_RCA_8bit_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/umang/Assignment_3/test_RCA_8bit_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+A =  42 B =  45 S =  87
+A = 128 B = 127 S = 255
+A = 130 B = 169 S =  43
+A = 255 B = 255 S = 254
+Stopped at time : 164 ns : File "/home/umang/Assignment_3/test_RCA_8bit.v" Line 74
+# exit 0

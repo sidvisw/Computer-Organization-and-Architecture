@@ -1,0 +1,28 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/siddharth/Desktop/COA/Assgn_5_Grp_53/test_counter_4_bit_structural_isim_beh.exe -prj /home/siddharth/Desktop/COA/Assgn_5_Grp_53/test_counter_4_bit_structural_beh.prj work.test_counter_4_bit_structural work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/D_Flip_Flop.v" into library work
+Analyzing Verilog file "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/clock_divider.v" into library work
+Analyzing Verilog file "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/add_by_one_adder.v" into library work
+Analyzing Verilog file "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.v" into library work
+Analyzing Verilog file "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/test_counter_4_bit_structural.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 82936 KB
+Fuse CPU Usage: 860 ms
+Compiling module clock_divider
+Compiling module D_Flip_Flop
+Compiling module add_by_one_adder
+Compiling module counter_4_bit_structural
+Compiling module test_counter_4_bit_structural
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable /home/siddharth/Desktop/COA/Assgn_5_Grp_53/test_counter_4_bit_structural_isim_beh.exe
+Fuse Memory Usage: 1167428 KB
+Fuse CPU Usage: 870 ms
+GCC CPU Usage: 400 ms

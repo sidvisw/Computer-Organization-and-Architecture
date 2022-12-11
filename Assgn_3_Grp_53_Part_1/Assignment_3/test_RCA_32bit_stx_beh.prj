@@ -1,0 +1,7 @@
+verilog isim_temp "half_addr.v"
+verilog isim_temp "full_addr.v"
+verilog isim_temp "Ripple_Carry_Addr_8bit.v"
+verilog isim_temp "Ripple_Carry_Addr_16bit.v"
+verilog isim_temp "Ripple_Carry_Addr_32bit.v"
+verilog isim_temp "test_RCA_32bit.v"
+verilog isim_temp "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

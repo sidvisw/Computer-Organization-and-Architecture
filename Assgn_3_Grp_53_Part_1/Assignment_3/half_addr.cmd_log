@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/umang/Assignment_3/half_addr.xst" -ofn "/home/umang/Assignment_3/half_addr.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Assignment_3/half_addr.xst" -ofn "/home/siddharth/Assignment_3/half_addr.syr" 

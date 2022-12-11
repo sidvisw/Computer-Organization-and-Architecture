@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Wed Nov 09 15:54:09 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="2A4036BB6C1983909265ED8FC365C484" type="project"/>
+<property name="ProjectIteration" value="14" type="project"/>
+<property name="ProjectFile" value="C:/Users/Student/Desktop/KGP_miniRisc_Assignment/KGP_miniRISC/KGP_miniRISC.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2022-10-21T15:28:45" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_FitterReportFormat" value="HTML" type="process"/>
+<property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
+<property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/wrapper_RISC_fib_test" type="process"/>
+<property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
+<property name="PROP_SynthTopFile" value="changed" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
+<property name="PROP_intProjectCreationTimestamp" value="2022-10-21T15:28:45" type="design"/>
+<property name="PROP_intWbtProjectID" value="2A4036BB6C1983909265ED8FC365C484" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="14" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.wrapper_RISC_fib_test" type="process"/>
+<property name="PROP_AutoTop" value="false" type="design"/>
+<property name="PROP_DevFamily" value="Artix7" type="design"/>
+<property name="PROP_ibiswriterOutputFile" value="CLA_16bit" type="process"/>
+<property name="PROP_DevDevice" value="xc7a100t" type="design"/>
+<property name="PROP_DevFamilyPMName" value="artix7" type="design"/>
+<property name="PROP_DevPackage" value="csg324" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-1" type="design"/>
+<property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
+<property name="PROP_netgenPostMapSimModelName" value="CLA_16bit_map.v" type="process"/>
+<property name="PROP_netgenPostParSimModelName" value="CLA_16bit_timesim.v" type="process"/>
+<property name="PROP_netgenPostSynthesisSimModelName" value="CLA_16bit_synthesis.v" type="process"/>
+<property name="PROP_netgenPostXlateSimModelName" value="CLA_16bit_translate.v" type="process"/>
+<property name="FILE_COREGEN" value="2" type="source"/>
+<property name="FILE_UCF" value="1" type="source"/>
+<property name="FILE_VERILOG" value="30" type="source"/>
+</section>
+</application>
+</document>

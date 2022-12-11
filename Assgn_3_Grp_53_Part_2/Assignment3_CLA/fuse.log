@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/siddharth/Downloads/Assignment_3/Assignment3_CLA/test_CLA_16bit_isim_beh.exe -prj /home/siddharth/Downloads/Assignment_3/Assignment3_CLA/test_CLA_16bit_beh.prj work.test_CLA_16bit work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/Lookahead_Carry_Unit.v" into library work
+Analyzing Verilog file "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/CLA_4bit.v" into library work
+Analyzing Verilog file "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/CLA_16bit.v" into library work
+Analyzing Verilog file "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16_bit.v" into library work
+Analyzing Verilog file "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/test_CLA_16bit.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 82944 KB
+Fuse CPU Usage: 890 ms
+Compiling module CLA_4bit
+Compiling module Lookahead_Carry_Unit
+Compiling module CLA_16bit
+Compiling module wrapper_CLA_16bit
+Compiling module test_CLA_16bit
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 6 Verilog Units
+Built simulation executable /home/siddharth/Downloads/Assignment_3/Assignment3_CLA/test_CLA_16bit_isim_beh.exe
+Fuse Memory Usage: 1167756 KB
+Fuse CPU Usage: 920 ms
+GCC CPU Usage: 480 ms

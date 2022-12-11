@@ -1,0 +1,3 @@
+verilog work "Lookahead_Carry_Unit.v"
+verilog work "CLA_4bit.v"
+verilog work "CLA_16bit.v"

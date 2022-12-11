@@ -1,0 +1,5 @@
+verilog work "half_addr.v"
+verilog work "full_addr.v"
+verilog work "RCA_4bit.v"
+verilog work "RCA_16bit.v"
+verilog work "wrapper_RCA_16bit.v"

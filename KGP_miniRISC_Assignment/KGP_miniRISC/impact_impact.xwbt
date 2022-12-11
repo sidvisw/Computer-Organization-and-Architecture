@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Student\Downloads\KGP_miniRISC\impact.xsl
+OUTFILE=C:\Users\Student\Downloads\KGP_miniRISC\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\Student\Downloads\KGP_miniRISC
+LICENSE=iMPACT
+USER_INFO=iMPACT

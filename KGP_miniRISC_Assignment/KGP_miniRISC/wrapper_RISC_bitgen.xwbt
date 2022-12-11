@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Student\Desktop\KGP_miniRisc_Assignment\KGP_miniRISC\wrapper_RISC.ncd
+OUTFILE=C:\Users\Student\Desktop\KGP_miniRisc_Assignment\KGP_miniRISC\wrapper_RISC.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\Student\Desktop\KGP_miniRisc_Assignment\KGP_miniRISC
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 wrapper_CLA_16bit_Ripple.ngc wrapper_CLA_16bit_Ripple.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_CLA_16bit_Ripple_map.ncd wrapper_CLA_16bit_Ripple.ngd wrapper_CLA_16bit_Ripple.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_CLA_16bit_Ripple_map.ncd wrapper_CLA_16bit_Ripple.ncd wrapper_CLA_16bit_Ripple.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml wrapper_CLA_16bit_Ripple.twx wrapper_CLA_16bit_Ripple.ncd -o wrapper_CLA_16bit_Ripple.twr wrapper_CLA_16bit_Ripple.pcf 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 wrapper_CLA_16bit_Ripple.ngc wrapper_CLA_16bit_Ripple.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o wrapper_CLA_16bit_Ripple_map.ncd wrapper_CLA_16bit_Ripple.ngd wrapper_CLA_16bit_Ripple.pcf 
+par -w -intstyle ise -ol high -mt off wrapper_CLA_16bit_Ripple_map.ncd wrapper_CLA_16bit_Ripple.ncd wrapper_CLA_16bit_Ripple.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml wrapper_CLA_16bit_Ripple.twx wrapper_CLA_16bit_Ripple.ncd -o wrapper_CLA_16bit_Ripple.twr wrapper_CLA_16bit_Ripple.pcf 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.xst" -ofn "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/wrapper_CLA_16bit_Ripple.syr" 

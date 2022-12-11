@@ -1,0 +1,30 @@
+Command line:
+   counter_4_bit_structural_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40927
+
+Wed Sep 14 15:47:14 2022
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 184.226 Meg
+
+ Total Signals          : 35
+ Total Nets             : 36
+ Total Signal Drivers   : 18
+ Total Blocks           : 8
+ Total Primitive Blocks : 7
+ Total Processes        : 25
+ Total Traceable Variables  : 26
+ Total Scalar Nets and Variables : 181
+In process counter_4_bit_structural.vCont_33_0 
+ FATAL ERROR:ISim: This application has discovered an exceptional condition from which it cannot recover. Process will terminate. To search for possible resolutions to this issue, refer to the Xilinx answer database by going to http://www.xilinx.com/support/answers/index.htm and search with keywords 'ISim' and 'FATAL ERROR'. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+
+ Total Simulation Time: 0.01 sec
+
+ Current Memory Usage: 259.727 Meg
+
+Wed Sep 14 15:47:30 2022
+

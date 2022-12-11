@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/test_CLA_16bit_isim_beh.exe" -prj "/home/siddharth/Downloads/Assignment_3/Assignment3_CLA/test_CLA_16bit_beh.prj" "work.test_CLA_16bit" "work.glbl" 

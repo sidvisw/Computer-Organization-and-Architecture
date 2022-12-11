@@ -1,0 +1,8 @@
+verilog work "Lookahead_Carry_Unit.v"
+verilog work "CLA_4bit.v"
+verilog work "CLA_16bit.v"
+verilog work "encoder_32x5.v"
+verilog work "adder.v"
+verilog work "shifter.v"
+verilog work "diff.v"
+verilog work "ALU.v"

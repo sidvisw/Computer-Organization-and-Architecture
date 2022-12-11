@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment3_CLA/CLA_16bit.xst" -ofn "/home/siddharth/Desktop/COA/Assignment3_CLA/CLA_16bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 CLA_16bit.ngc CLA_16bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CLA_16bit_map.ncd CLA_16bit.ngd CLA_16bit.pcf 
+par -w -intstyle ise -ol high -mt off CLA_16bit_map.ncd CLA_16bit.ncd CLA_16bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CLA_16bit.twx CLA_16bit.ncd -o CLA_16bit.twr CLA_16bit.pcf 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/CLA_16bit.xst" -ofn "/home/siddharth/Desktop/COA/Assignment_3/Assignment3_CLA/CLA_16bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 CLA_16bit.ngc CLA_16bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o CLA_16bit_map.ncd CLA_16bit.ngd CLA_16bit.pcf 
+par -w -intstyle ise -ol high -mt off CLA_16bit_map.ncd CLA_16bit.ncd CLA_16bit.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml CLA_16bit.twx CLA_16bit.ncd -o CLA_16bit.twr CLA_16bit.pcf 

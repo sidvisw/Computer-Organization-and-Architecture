@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/CLA_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/CLA_16bit_Ripple.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/CLA_4bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/CLA_4bit_Ripple.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/Lookahead_Carry_Unit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/RCA_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/RCA_4bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/full_addr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/half_addr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/wrapper_CLA_16_bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/wrapper_CLA_16bit_Ripple.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/wrapper_CLA_4bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/wrapper_RCA_16bit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/sidharth/Desktop/COA/Assgn_3_Grp_53_Part_2/Assignment3_CLA/wrapper_RCA_4bit.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

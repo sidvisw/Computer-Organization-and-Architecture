@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Student\Downloads\Assgn_5_Grp_53\Assgn_5_Grp_53\counter_4_bit.ncd
+OUTFILE=C:\Users\Student\Downloads\Assgn_5_Grp_53\Assgn_5_Grp_53\counter_4_bit.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\Student\Downloads\Assgn_5_Grp_53\Assgn_5_Grp_53
+LICENSE=WebPack
+USER_INFO=__0_0_0

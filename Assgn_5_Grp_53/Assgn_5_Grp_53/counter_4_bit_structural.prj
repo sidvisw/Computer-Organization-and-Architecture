@@ -1,0 +1,4 @@
+verilog work "D_Flip_Flop.v"
+verilog work "clock_divider.v"
+verilog work "add_by_one_adder.v"
+verilog work "counter_4_bit_structural.v"

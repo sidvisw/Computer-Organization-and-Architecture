@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC_sort_test_isim_beh.exe" -prj "/home/sidharth/Desktop/COA/KGP_miniRISC_Assignment/KGP_miniRISC/wrapper_RISC_sort_test_beh.prj" "work.wrapper_RISC_sort_test" "work.glbl" 

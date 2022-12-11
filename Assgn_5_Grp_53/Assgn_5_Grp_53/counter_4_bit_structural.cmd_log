@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "C:/Users/Student/Desktop/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 counter_4_bit_structural.ngc counter_4_bit_structural.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o counter_4_bit_structural_map.ncd counter_4_bit_structural.ngd counter_4_bit_structural.pcf 
+par -w -intstyle ise -ol high -mt off counter_4_bit_structural_map.ncd counter_4_bit_structural.ncd counter_4_bit_structural.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml counter_4_bit_structural.twx counter_4_bit_structural.ncd -o counter_4_bit_structural.twr counter_4_bit_structural.pcf 
+bitgen -intstyle ise -f counter_4_bit_structural.ut counter_4_bit_structural.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "C:/Users/Student/Desktop/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_4_bit_counter_structural.ucf -p xc7a100t-csg324-1 counter_4_bit_structural.ngc counter_4_bit_structural.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o counter_4_bit_structural_map.ncd counter_4_bit_structural.ngd counter_4_bit_structural.pcf 
+par -w -intstyle ise -ol high -mt off counter_4_bit_structural_map.ncd counter_4_bit_structural.ncd counter_4_bit_structural.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml counter_4_bit_structural.twx counter_4_bit_structural.ncd -o counter_4_bit_structural.twr counter_4_bit_structural.pcf -ucf pin_4_bit_counter_structural.ucf 
+bitgen -intstyle ise -f counter_4_bit_structural.ut counter_4_bit_structural.ncd 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "C:/Users/Student/Desktop/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Downloads/Assgn_5_Grp_53/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "C:/Users/Student/Downloads/Assgn_5_Grp_53/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_4_bit_counter_structural.ucf -p xc7a100t-csg324-1 counter_4_bit_structural.ngc counter_4_bit_structural.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o counter_4_bit_structural_map.ncd counter_4_bit_structural.ngd counter_4_bit_structural.pcf 
+par -w -intstyle ise -ol high -mt off counter_4_bit_structural_map.ncd counter_4_bit_structural.ncd counter_4_bit_structural.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml counter_4_bit_structural.twx counter_4_bit_structural.ncd -o counter_4_bit_structural.twr counter_4_bit_structural.pcf -ucf pin_4_bit_counter_structural.ucf 
+bitgen -intstyle ise -f counter_4_bit_structural.ut counter_4_bit_structural.ncd 
+xst -intstyle ise -ifn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/Assgn_5_Grp_53/counter_4_bit_structural.xst" -ofn "/home/siddharth/Desktop/COA/Assgn_5_Grp_53/Assgn_5_Grp_53/counter_4_bit_structural.syr" 
